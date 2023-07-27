@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "admin-sp-site",
+    "libraryId": "76cbc8bf-94f9-4f0b-b1fb-5b325edfbf28",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "adminSPSite",
+    "solutionShortDescription": "adminSPSite description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

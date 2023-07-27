@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "admin-sp-site-client-side-solution",
+    "id": "76cbc8bf-94f9-4f0b-b1fb-5b325edfbf28",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "adminSPSite description"
+      },
+      "longDescription": {
+        "default": "adminSPSite description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "admin-sp-site Feature",
+        "description": "The feature that activates elements of the admin-sp-site solution.",
+        "id": "b055a171-c271-472d-8dc1-41ce38e9cd7c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/admin-sp-site.sppkg"
+  }
+}
